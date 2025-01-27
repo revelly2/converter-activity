@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <label for="php">PHP:</label>
+        <input type="number" id="php" placeholder="Enter PHP Amount"><br>
+        <button onclick="convert()">Convert</button>
+        
+        <div class="result" id="result">
+            <label>XRP:</label>
+            <input type="number" id="xrp" value="0.0000" readonly><br>
+            <label>USDT:</label>
+            <input type="number" id="usdt" value="0.0000" readonly><br>
+            <label>DOGE:</label>
+            <input type="number" id="doge" value="0.0000" readonly><br>
+            <label>TRX:</label>
+            <input type="number" id="trx" value="0.0000" readonly><br>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
